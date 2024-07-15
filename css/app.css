@@ -24,7 +24,7 @@ body {
     border-radius: 50%;
 }
 
-.img-crop>img {
+.img-crop>img, .img-ganesh>img {
     display: inline;
     margin: 0 auto;
     height: auto;
@@ -141,4 +141,16 @@ footer {
 
 .color-theme-black {
     color: black;
+}
+
+.home-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-ganesh {
+    width: 6rem;
+    height: auto;
 }
